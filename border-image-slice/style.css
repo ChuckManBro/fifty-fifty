@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #0577bd;
+	margin: 0;
+}
+
+#bkg-img {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	right: 50px;
+	min-height: calc(100vh - 50px);
+	border-style: solid;
+	border-width: 98px 40px 0 80px;
+	border-image-source: url(./images/notebook-paper.png);
+	border-image-slice: 98 40 0 80 fill;
+	border-image-repeat: repeat;
+}
+
+#bkg-img p {
+	margin-top: -35px;
+	font-family: 'Homemade Apple', sans-serif;
+	color: darkslategray;
+	font-size: 26px;
+	line-height: 43.5px;
+}
+
+@media (max-width: 500px) {
+	#bkg-img {
+		top: 12px;
+		left: 10px;
+		right: 8px;
+		border-width: 49px 20px 0 40px;
+	}
+
+	#bkg-img p {
+		margin-top: -4px;
+		font-size: 20px;
+		line-height: 34px;
+	}
+}
