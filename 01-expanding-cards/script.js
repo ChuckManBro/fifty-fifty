@@ -1,6 +1,7 @@
 'use strict';
 
 // 50 PROJECTS IN 50 DAYS
+// https://github.com/bradtraversy/50projects50days
 
 const panels = document.querySelectorAll(`.panel`);
 
