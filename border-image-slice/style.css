@@ -7,6 +7,10 @@ body {
 	margin: 0;
 }
 
+/*
+This particular example works well in Firefox but not Chrome or Safari. On Firefox the inner slices are anchored at their start. The other browsers center these slices, creating inconsistent edges. Perhaps this could be solved by using JS to step the sizes.
+*/
+
 #bkg-img {
 	position: absolute;
 	top: 50px;
