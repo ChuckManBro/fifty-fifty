@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+:root {
+	--duration: 4;
+}
+
+body {
+	background-color: darkslategray;
+	font-family: Helvetica, sans-serif;
+	color: white;
+}
+
+#date-tools {
+	height: 2rem;
+}
+
+#cal-container {
+	width: 100vw;
+	overflow: auto;
+}
+
+#cal {
+	display: flex;
+	width: fit-content;
+}
+
+.cal-day {
+	height: 200px;
+	width: calc(100vw / var(--duration));
+	min-width: calc(100vw / 7);
+	background-color: hotpink;
+	border: 2px solid white;
+}
