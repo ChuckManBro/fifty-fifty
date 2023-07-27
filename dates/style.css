@@ -3,8 +3,14 @@
 	margin: 0;
 }
 
+/* https://coolors.co/palette/ff595e-ffca3a-8ac926-1982c4-6a4c93 */
 :root {
 	--duration: 4;
+	--color-red: #ff595e;
+	--color-yellow: #ffca3a;
+	--color-green: #8ac926;
+	--color-blue: #1982c4;
+	--color-purple: #6a4c93;
 }
 
 body {
